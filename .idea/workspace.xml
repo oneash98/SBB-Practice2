@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="73275d6d-b8f9-49ed-aa73-0010d4d80051" name="Changes" comment="Question list html">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mysite/SBBPractice2/DataNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mysite/SBBPractice2/service/QuestionService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/question_detail.html" afterDir="false" />
+    <list default="true" id="73275d6d-b8f9-49ed-aa73-0010d4d80051" name="Changes" comment="Question Detail page">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mysite/SBBPractice2/controller/AnswerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mysite/SBBPractice2/service/AnswerService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mysite/SBBPractice2/controller/QuestionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mysite/SBBPractice2/controller/QuestionController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/question_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/question_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/question_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/question_detail.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -236,7 +234,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659964934987</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Question Detail page">
+      <created>1659965849638</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1659965849638</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -255,6 +260,7 @@
     <MESSAGE value="Question &amp; Answer Entity" />
     <MESSAGE value="Question &amp; Answer Repository&#10;+ Test Codes" />
     <MESSAGE value="Question list html" />
-    <option name="LAST_COMMIT_MESSAGE" value="Question list html" />
+    <MESSAGE value="Question Detail page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Question Detail page" />
   </component>
 </project>
