@@ -4,21 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="73275d6d-b8f9-49ed-aa73-0010d4d80051" name="Changes" comment="question_list &amp; question_detail page CSS">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mysite/SBBPractice2/answerID.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mysite/SBBPractice2/questionID.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/question_form.html" afterDir="false" />
+    <list default="true" id="73275d6d-b8f9-49ed-aa73-0010d4d80051" name="Changes" comment="Question Register Function">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mysite/SBBPractice2/form/AnswerForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mysite/SBBPractice2/form/QuestionForm.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/mysite/SBBPractice2/controller/AnswerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mysite/SBBPractice2/controller/AnswerController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/mysite/SBBPractice2/controller/QuestionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mysite/SBBPractice2/controller/QuestionController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mysite/SBBPractice2/domain/Answer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mysite/SBBPractice2/domain/Answer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mysite/SBBPractice2/service/AnswerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mysite/SBBPractice2/service/AnswerService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mysite/SBBPractice2/service/QuestionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mysite/SBBPractice2/service/QuestionService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/question_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/question_list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/mysite/SBBPractice2/repository/AnswerRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/mysite/SBBPractice2/repository/AnswerRepositoryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/mysite/SBBPractice2/repository/QuestionRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/mysite/SBBPractice2/repository/QuestionRepositoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/question_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/question_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/question_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/question_form.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -245,7 +238,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659967093446</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Question Register Function">
+      <created>1660037466986</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1660037466986</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -267,6 +267,7 @@
     <MESSAGE value="Question Detail page" />
     <MESSAGE value="Answer Register Function" />
     <MESSAGE value="question_list &amp; question_detail page CSS" />
-    <option name="LAST_COMMIT_MESSAGE" value="question_list &amp; question_detail page CSS" />
+    <MESSAGE value="Question Register Function" />
+    <option name="LAST_COMMIT_MESSAGE" value="Question Register Function" />
   </component>
 </project>
