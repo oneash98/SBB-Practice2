@@ -8,6 +8,9 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
 import javax.swing.text.html.Option;
+import java.io.*;
+import java.nio.Buffer;
+import java.time.LocalDateTime;
 import java.util.List;
 import java.util.Optional;
 
@@ -16,6 +19,7 @@ import java.util.Optional;
 public class QuestionService {
 
     private final QuestionRepository questionRepository;
+
 
     public List<Question> getList() {
         return this.questionRepository.findAll();
@@ -28,5 +32,29 @@ public class QuestionService {
         } else {
             throw new DataNotFoundException("question not found");
         }
+    }
+
+    public void create(String subject, String content) throws IOException{
+
+        BufferedReader reader = new BufferedReader(new FileReader("src/main/java/com/mysite/SBBPractice2/questionID.txt"));
+        int id = Integer.parseInt(reader.readLine());
+        reader.close();
+        File oldFile = new File("src/main/java/com/mysite/SBBPractice2/questionID.txt");
+        oldFile.delete();
+        File newFile = new File("src/main/java/com/mysite/SBBPractice2/questionID.txt");
+        try {
+            FileWriter fileWriter = new FileWriter(newFile, false);
+            fileWriter.write(Integer.toString(id + 1));
+            fileWriter.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+        Question question = new Question();
+        question.setId(id);
+        question.setSubject(subject);
+        question.setContent(content);
+        question.setCreateDate(LocalDateTime.now());
+        this.questionRepository.save(question);
     }
 }

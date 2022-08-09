@@ -12,6 +12,8 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
+import java.io.IOException;
+
 @RequestMapping("/answer")
 @RequiredArgsConstructor
 @Controller
@@ -21,7 +23,7 @@ public class AnswerController {
     private final AnswerService answerService;
 
     @PostMapping("/create/{id}")
-    public String createAnswer(Model model, @PathVariable("id") Integer id, @RequestParam String content) {
+    public String createAnswer(Model model, @PathVariable("id") Integer id, @RequestParam String content) throws IOException {
         Question question = this.questionService.getQuestion(id);
         this.answerService.create(question, content);
         return String.format("redirect:/question/detail/%S", id);

@@ -6,6 +6,7 @@ import com.mysite.SBBPractice2.repository.AnswerRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
+import java.io.*;
 import java.time.LocalDateTime;
 
 @RequiredArgsConstructor
@@ -14,11 +15,24 @@ public class AnswerService {
 
     private final AnswerRepository answerRepository;
 
-    static Integer answerId = 0;
+    public void create(Question question, String content) throws IOException {
 
-    public void create(Question question, String content) {
+        BufferedReader reader = new BufferedReader(new FileReader("src/main/java/com/mysite/SBBPractice2/answerID.txt"));
+        int id = Integer.parseInt(reader.readLine());
+        reader.close();
+        File oldFile = new File("src/main/java/com/mysite/SBBPractice2/answerID.txt");
+        oldFile.delete();
+        File newFile = new File("src/main/java/com/mysite/SBBPractice2/answerID.txt");
+        try {
+            FileWriter fileWriter = new FileWriter(newFile, false);
+            fileWriter.write(Integer.toString(id + 1));
+            fileWriter.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
         Answer answer = new Answer();
-        answer.setId(++AnswerService.answerId);
+        answer.setId(id);
         answer.setContent(content);
         answer.setCreateDate(LocalDateTime.now());
         answer.setQuestion(question);

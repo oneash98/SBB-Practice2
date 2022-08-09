@@ -24,8 +24,6 @@ public class AnswerRepositoryTest {
     @Autowired
     private AnswerRepository answerRepository;
 
-    static Integer questionId = 0;
-    static Integer answerId = 0;
 
     @AfterEach
     void afterEach() {
@@ -36,14 +34,12 @@ public class AnswerRepositoryTest {
     @Test
     void save() {
         Question question2 = new Question();
-        question2.setId(++questionId);
         question2.setSubject("스프링부트 모델 질문입니다.");
         question2.setContent("id는 자동으로 생성되나요?");
         question2.setCreateDate(LocalDateTime.now());
         this.questionRepository.save(question2);
 
         Answer answer = new Answer();
-        answer.setId(++answerId);
         answer.setContent("네 자동으로 생성됩니다");
         answer.setQuestion(this.questionRepository.findById(1).get());
         answer.setCreateDate(LocalDateTime.now());
