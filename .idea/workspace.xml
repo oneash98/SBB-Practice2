@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="73275d6d-b8f9-49ed-aa73-0010d4d80051" name="Changes" comment="Question &amp; Answer Form">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/form_errors.html" afterDir="false" />
+    <list default="true" id="73275d6d-b8f9-49ed-aa73-0010d4d80051" name="Changes" comment="Form Error Template">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/question_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/question_detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/question_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/question_form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mysite/SBBPractice2/answerID.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mysite/SBBPractice2/answerID.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mysite/SBBPractice2/service/AnswerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mysite/SBBPractice2/service/AnswerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mysite/SBBPractice2/service/QuestionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mysite/SBBPractice2/service/QuestionService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -249,7 +249,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660038657684</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Form Error Template">
+      <created>1660038931056</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1660038931056</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -273,6 +280,7 @@
     <MESSAGE value="question_list &amp; question_detail page CSS" />
     <MESSAGE value="Question Register Function" />
     <MESSAGE value="Question &amp; Answer Form" />
-    <option name="LAST_COMMIT_MESSAGE" value="Question &amp; Answer Form" />
+    <MESSAGE value="Form Error Template" />
+    <option name="LAST_COMMIT_MESSAGE" value="Form Error Template" />
   </component>
 </project>
