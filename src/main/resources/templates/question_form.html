@@ -1,11 +1,7 @@
 <!DOCTYPE html>
-<html lang="ko">
-<head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" th:href="@{/bootstrap.min.css}">
-</head>
-<body>
-    <div class = "container">
+<html layout:decorate="~{layout}">
+
+    <div layout:fragment="content" class = "container">
         <h5 class = "my-3 border-bottom pb-2">질문등록</h5>
         <form th:action="@{/question/create}" th:object="${questionForm}" method="post">
             <div th:replace="form_errors :: formErrorsFragment"></div>
@@ -21,5 +17,5 @@
         </form>
     </div>
 
-</body>
+
 </html>
