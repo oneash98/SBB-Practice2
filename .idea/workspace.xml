@@ -4,16 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="73275d6d-b8f9-49ed-aa73-0010d4d80051" name="Changes" comment="Navigation Bar">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/mysite/SBBPractice2/MainApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mysite/SBBPractice2/controller/QuestionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mysite/SBBPractice2/controller/QuestionController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mysite/SBBPractice2/questionID.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mysite/SBBPractice2/questionID.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mysite/SBBPractice2/repository/QuestionRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mysite/SBBPractice2/repository/QuestionRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mysite/SBBPractice2/service/QuestionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mysite/SBBPractice2/service/QuestionService.java" afterDir="false" />
+    <list default="true" id="73275d6d-b8f9-49ed-aa73-0010d4d80051" name="Changes" comment="Paging">
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/question_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/question_list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/mysite/SBBPractice2/repository/AnswerRepositoryTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/mysite/SBBPractice2/repository/QuestionRepositoryTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -282,7 +274,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660313950856</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Paging">
+      <created>1660644916321</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1660644916321</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -310,6 +309,7 @@
     <MESSAGE value="Question, Answer ID Allocation Fixed" />
     <MESSAGE value="Thymeleaf layout" />
     <MESSAGE value="Navigation Bar" />
-    <option name="LAST_COMMIT_MESSAGE" value="Navigation Bar" />
+    <MESSAGE value="Paging" />
+    <option name="LAST_COMMIT_MESSAGE" value="Paging" />
   </component>
 </project>
