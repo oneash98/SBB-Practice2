@@ -3,6 +3,7 @@ package com.mysite.SBBPractice2.service;
 
 import com.mysite.SBBPractice2.DataNotFoundException;
 import com.mysite.SBBPractice2.domain.Question;
+import com.mysite.SBBPractice2.domain.SiteUser;
 import com.mysite.SBBPractice2.repository.QuestionRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;
@@ -42,7 +43,7 @@ public class QuestionService {
         }
     }
 
-    public void create(String subject, String content) {
+    public void create(String subject, String content, SiteUser user) {
         Question question = new Question();
 
         try(BufferedReader reader = new BufferedReader(new FileReader("src/main/java/com/mysite/SBBPractice2/security/questionID.txt"))) {
@@ -61,6 +62,7 @@ public class QuestionService {
         question.setSubject(subject);
         question.setContent(content);
         question.setCreateDate(LocalDateTime.now());
+        question.setAuthor(user);
         this.questionRepository.save(question);
     }
 
