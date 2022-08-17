@@ -45,11 +45,11 @@ public class QuestionService {
     public void create(String subject, String content) {
         Question question = new Question();
 
-        try(BufferedReader reader = new BufferedReader(new FileReader("src/main/java/com/mysite/SBBPractice2/questionID.txt"))) {
+        try(BufferedReader reader = new BufferedReader(new FileReader("src/main/java/com/mysite/SBBPractice2/security/questionID.txt"))) {
             int id = Integer.parseInt(reader.readLine()) + 1;
             question.setId(id);
 
-            try(BufferedWriter writer = new BufferedWriter(new FileWriter("src/main/java/com/mysite/SBBPractice2/questionID.txt"))) {
+            try(BufferedWriter writer = new BufferedWriter(new FileWriter("src/main/java/com/mysite/SBBPractice2/security/questionID.txt"))) {
                 writer.write(Integer.toString(id));
             } catch(Exception e) {
                 e.printStackTrace();

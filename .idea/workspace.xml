@@ -4,13 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="73275d6d-b8f9-49ed-aa73-0010d4d80051" name="Changes" comment="Signup Form html">
+    <list default="true" id="73275d6d-b8f9-49ed-aa73-0010d4d80051" name="Changes" comment="Signup complete">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mysite/SBBPractice2/security/UserRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mysite/SBBPractice2/service/UserSecurityService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/login_form.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mysite/SBBPractice2/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mysite/SBBPractice2/security/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mysite/SBBPractice2/answerID.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mysite/SBBPractice2/security/answerID.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/mysite/SBBPractice2/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mysite/SBBPractice2/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mysite/SBBPractice2/userID.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mysite/SBBPractice2/userID.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mysite/SBBPractice2/questionID.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mysite/SBBPractice2/security/questionID.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mysite/SBBPractice2/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mysite/SBBPractice2/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mysite/SBBPractice2/service/AnswerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mysite/SBBPractice2/service/AnswerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mysite/SBBPractice2/service/QuestionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mysite/SBBPractice2/service/QuestionService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mysite/SBBPractice2/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mysite/SBBPractice2/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mysite/SBBPractice2/userID.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mysite/SBBPractice2/security/userID.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/navbar.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/question_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/question_form.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/signup_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/signup_form.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,8 +54,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -73,6 +81,9 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/mysite/SBBPractice2/security" />
+    </key>
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="com.mysite.SBBPractice2.repository" />
     </key>
@@ -83,7 +94,7 @@
       <module name="SBB-Practice2.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mysite.SBBPractice2.*" />
+          <option name="PATTERN" value="com.mysite.SBBPractice2.security.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,7 +107,7 @@
       <module name="SBB-Practice2.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mysite.SBBPractice2.*" />
+          <option name="PATTERN" value="com.mysite.SBBPractice2.security.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -329,7 +340,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660720216334</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Signup complete">
+      <created>1660720956478</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1660720956478</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -364,6 +382,7 @@
     <MESSAGE value="User Domain&amp;Repository&amp;Service" />
     <MESSAGE value="User CreateForm&amp;Controller" />
     <MESSAGE value="Signup Form html" />
-    <option name="LAST_COMMIT_MESSAGE" value="Signup Form html" />
+    <MESSAGE value="Signup complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="Signup complete" />
   </component>
 </project>

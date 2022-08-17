@@ -19,11 +19,11 @@ public class UserService {
     public SiteUser create(String username, String email, String password) {
         SiteUser user = new SiteUser();
 
-        try(BufferedReader reader = new BufferedReader(new FileReader("src/main/java/com/mysite/SBBPractice2/userID.txt"))) {
+        try(BufferedReader reader = new BufferedReader(new FileReader("src/main/java/com/mysite/SBBPractice2/security/userID.txt"))) {
             int id = Integer.parseInt(reader.readLine()) + 1;
             user.setId(id);
 
-            try(BufferedWriter writer = new BufferedWriter(new FileWriter("src/main/java/com/mysite/SBBPractice2/userID.txt"))) {
+            try(BufferedWriter writer = new BufferedWriter(new FileWriter("src/main/java/com/mysite/SBBPractice2/security/userID.txt"))) {
                 writer.write(Integer.toString(id));
             } catch (Exception e) {
                 e.printStackTrace();

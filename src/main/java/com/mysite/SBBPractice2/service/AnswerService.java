@@ -19,11 +19,11 @@ public class AnswerService {
     public void create(Question question, String content) throws IOException {
         Answer answer = new Answer();
 
-        try(BufferedReader reader = new BufferedReader(new FileReader("src/main/java/com/mysite/SBBPractice2/answerID.txt"))) {
+        try(BufferedReader reader = new BufferedReader(new FileReader("src/main/java/com/mysite/SBBPractice2/security/answerID.txt"))) {
             int id = Integer.parseInt(reader.readLine()) + 1;
             answer.setId(id);
 
-            try(BufferedWriter writer = new BufferedWriter(new FileWriter("src/main/java/com/mysite/SBBPractice2/answerID.txt", false))) {
+            try(BufferedWriter writer = new BufferedWriter(new FileWriter("src/main/java/com/mysite/SBBPractice2/security/answerID.txt", false))) {
                 writer.write(Integer.toString(id));
             } catch (Exception e) {
                 e.printStackTrace();
