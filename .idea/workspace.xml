@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="73275d6d-b8f9-49ed-aa73-0010d4d80051" name="Changes" comment="SpringSecurity">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mysite/SBBPractice2/domain/SiteUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mysite/SBBPractice2/repository/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mysite/SBBPractice2/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mysite/SBBPractice2/userID.txt" afterDir="false" />
+    <list default="true" id="73275d6d-b8f9-49ed-aa73-0010d4d80051" name="Changes" comment="User Domain&amp;Repository&amp;Service">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mysite/SBBPractice2/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mysite/SBBPractice2/form/UserCreateForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/signup_form.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mysite/SBBPractice2/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mysite/SBBPractice2/SecurityConfig.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,9 +43,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -308,7 +306,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660717060921</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="User Domain&amp;Repository&amp;Service">
+      <created>1660717940673</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1660717940673</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -340,6 +345,7 @@
     <MESSAGE value="Paging 2" />
     <MESSAGE value="Number of Answers" />
     <MESSAGE value="SpringSecurity" />
-    <option name="LAST_COMMIT_MESSAGE" value="SpringSecurity" />
+    <MESSAGE value="User Domain&amp;Repository&amp;Service" />
+    <option name="LAST_COMMIT_MESSAGE" value="User Domain&amp;Repository&amp;Service" />
   </component>
 </project>
