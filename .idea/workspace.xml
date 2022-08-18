@@ -4,10 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="73275d6d-b8f9-49ed-aa73-0010d4d80051" name="Changes" comment="Login to use service">
+    <list default="true" id="73275d6d-b8f9-49ed-aa73-0010d4d80051" name="Changes" comment="Show User info">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mysite/SBBPractice2/controller/QuestionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mysite/SBBPractice2/controller/QuestionController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mysite/SBBPractice2/domain/Answer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mysite/SBBPractice2/domain/Answer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mysite/SBBPractice2/domain/Question.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mysite/SBBPractice2/domain/Question.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mysite/SBBPractice2/security/questionID.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mysite/SBBPractice2/security/questionID.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mysite/SBBPractice2/service/QuestionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mysite/SBBPractice2/service/QuestionService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/question_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/question_detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/question_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/question_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/question_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/question_form.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -350,7 +355,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660745128233</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Show User info">
+      <created>1660745526090</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1660745526090</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -388,6 +400,7 @@
     <MESSAGE value="Signup complete" />
     <MESSAGE value="login&amp;out" />
     <MESSAGE value="Login to use service" />
-    <option name="LAST_COMMIT_MESSAGE" value="Login to use service" />
+    <MESSAGE value="Show User info" />
+    <option name="LAST_COMMIT_MESSAGE" value="Show User info" />
   </component>
 </project>
