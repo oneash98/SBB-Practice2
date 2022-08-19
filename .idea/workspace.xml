@@ -4,11 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="73275d6d-b8f9-49ed-aa73-0010d4d80051" name="Changes" comment="Question Delete">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/answer_form.html" afterDir="false" />
+    <list default="true" id="73275d6d-b8f9-49ed-aa73-0010d4d80051" name="Changes" comment="Answer Modify &amp; Delete">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/mysite/SBBPractice2/controller/AnswerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mysite/SBBPractice2/controller/AnswerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mysite/SBBPractice2/controller/QuestionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mysite/SBBPractice2/controller/QuestionController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mysite/SBBPractice2/domain/Answer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mysite/SBBPractice2/domain/Answer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mysite/SBBPractice2/domain/Question.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mysite/SBBPractice2/domain/Question.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mysite/SBBPractice2/security/answerID.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mysite/SBBPractice2/security/answerID.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/mysite/SBBPractice2/service/AnswerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mysite/SBBPractice2/service/AnswerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mysite/SBBPractice2/service/QuestionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mysite/SBBPractice2/service/QuestionService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/question_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/question_detail.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -373,7 +377,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660785830491</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Answer Modify &amp; Delete">
+      <created>1660828124159</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1660828124159</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -388,7 +399,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Question &amp; Answer Entity" />
     <MESSAGE value="Question &amp; Answer Repository&#10;+ Test Codes" />
     <MESSAGE value="Question list html" />
     <MESSAGE value="Question Detail page" />
@@ -413,6 +423,7 @@
     <MESSAGE value="Show User info" />
     <MESSAGE value="Question Modify" />
     <MESSAGE value="Question Delete" />
-    <option name="LAST_COMMIT_MESSAGE" value="Question Delete" />
+    <MESSAGE value="Answer Modify &amp; Delete" />
+    <option name="LAST_COMMIT_MESSAGE" value="Answer Modify &amp; Delete" />
   </component>
 </project>
